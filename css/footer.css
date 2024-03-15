@@ -1,0 +1,49 @@
+.footer-bg {
+  background: var(--c13);
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.footer-info .texto {
+  text-align: start;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.footer-contatos a {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer::before {
+  position: absolute;
+  content: "";
+  width: 130px;
+  height: 100px;
+  background: url(/img/decoracao/deco.svg) no-repeat center;
+  top: -50px;
+  left: 20px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+  .footer::before {
+    display: none;
+  }
+  .footer-contatos {
+    display: none;
+  }
+  .footer-info .texto {
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}

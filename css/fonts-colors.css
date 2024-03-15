@@ -1,0 +1,165 @@
+:root {
+  --w: #ffffff;
+  --b: #000000;
+  --c1: #f5f5f5;
+  --c2: #f0f0f0;
+  --c10: #525252;
+  --c11: #8f8f8f;
+  --c12: #292929;
+  --c13: #141414;
+  --p1: #8844ee;
+  --p2: #b07dfb;
+  --gradiente: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+
+.titulo {
+  color: var(--p1);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+.subtitulo {
+  color: var(--c11);
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 3rem;
+}
+
+.menu-lista a {
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.section-titulo {
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.texto,
+.texto a {
+  color: var(--c13);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+}
+
+.projetos-mais-texto,
+.educacao-mais,
+.footer-info .texto {
+  color: var(--w);
+  text-align: center;
+  font-family: "Fira Sans";
+  font-size: 1.25rem;
+}
+
+.projetos-mais {
+  color: var(--w);
+}
+
+.educacao-mais {
+  color: var(--b);
+}
+
+.sobre-introducao {
+  color: var(--c13, #141414);
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.projeto-nome a {
+  color: var(--c12);
+  font-family: "Fira Sans";
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.projetos-habilidades {
+  color: var(--c10, #525252);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 32px;
+}
+
+.btn {
+  color: var(--c1, #f5f5f5);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+.formacao-titulo {
+  color: var(--b);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.formacao-curso {
+  color: var(--b);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.formacao-instituicao {
+  color: var(--b);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.formacao-extra-titulo {
+  color: var(--c9, #666);
+  font-family: "Fira Sans";
+  font-size: 1.125rem;
+  line-height: 32px;
+  text-transform: uppercase;
+}
+
+.extra-lista {
+  color: var(--c12, #292929);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+  line-height: 32px;
+}
+
+.extra-lista span {
+  color: var(--c11);
+  font-family: "Fira Sans";
+  font-size: 1rem;
+}
+
+.footer-contatos a {
+  color: var(--w);
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    font-size: 4rem;
+  }
+  .subtitulo {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-lista a {
+    font-size: 1rem;
+  }
+}
