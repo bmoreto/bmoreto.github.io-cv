@@ -84,23 +84,6 @@
   line-height: 32px;
 }
 
-.projetos-habilidades {
-  color: var(--c10, #525252);
-  font-family: "Fira Sans";
-  font-size: 1rem;
-  line-height: 32px;
-}
-
-.btn {
-  color: var(--c1, #f5f5f5);
-  font-family: "Fira Sans";
-  font-size: 1rem;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0.24px;
-  text-transform: uppercase;
-}
-
 .formacao-titulo {
   color: var(--b);
   font-family: "Fira Sans";

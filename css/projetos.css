@@ -16,7 +16,7 @@
   margin-bottom: 40px;
 }
 
-.projetos-mais {
+.projetos-mais-texto {
   margin-bottom: 20px;
 }
 
@@ -42,21 +42,6 @@
   margin-bottom: 20px;
 }
 
-.projetos-habilidades {
-  grid-column: 2;
-  display: flex;
-  flex-wrap: wrap;
-  justify-items: center;
-  gap: 10px;
-}
-
-.projetos-habilidades li {
-  background: var(--w);
-  border-radius: 4px;
-  padding: 5px 10px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
 @media (max-width: 800px) {
   .projetos {
     display: grid;
@@ -64,6 +49,6 @@
     gap: 20px;
   }
   .projetos-mais {
-    background-color: red;
+    display: none;
   }
 }
