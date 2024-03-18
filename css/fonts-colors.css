@@ -146,3 +146,18 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 400px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  .subtitulo {
+    font-size: 1.75rem;
+  }
+  .subtitulo {
+    font-size: 1.75rem;
+  }
+  .section-titulo {
+    font-size: 1.5rem;
+  }
+}

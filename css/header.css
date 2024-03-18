@@ -26,3 +26,9 @@
 .menu-lista li:hover {
   background: var(--p2);
 }
+
+@media (max-width: 400px) {
+  .menu-lista .sumir {
+    display: none;
+  }
+}
